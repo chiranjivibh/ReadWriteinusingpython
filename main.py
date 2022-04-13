@@ -19,9 +19,11 @@ filesave.close()
 for i in range(1000):
     """
     do your calculation here and create data array
+    
     """
+    New_array= np.array([])
     filesave=open('text.txt','a')
-    filesave.write(str(created data array))
+    filesave.write(str(New_array))
     filesave.write('\n')
     filesave.close()
-    DFF.append(created array)
+    DFF.append(New_array)
